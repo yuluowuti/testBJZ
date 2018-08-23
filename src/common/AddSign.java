@@ -59,9 +59,8 @@ public class AddSign {
         }
         new_str = new_str + "key=" + APP_KEY;
         String sign = getMD5Str(new_str).toUpperCase();
-        System.out.println(new_str);
-        System.out.println(sign);
         map.put("sign",sign);
+        System.out.println(map);
     }
 
     public static void main(String []args){
