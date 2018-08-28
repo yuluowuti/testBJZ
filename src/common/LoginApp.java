@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 
 public class LoginApp {
     public static void getToken() throws IOException {
-        String url = Global.HOST + "/v1/authorizations";
+        String url = GlobalVal.HOST + "/v1/authorizations";
         HashMap params =new HashMap();
         params.put("brushed","1");
         params.put("deviceModel","iPhone 6 Plus");
@@ -19,9 +19,10 @@ public class LoginApp {
         params.put("password","qwe123");
         params.put("phone","13572489850");
         params.put("systemVersion","10.3.3");
-        AddSign.sign(params);
+        AddSignT.sign(params);
 
-        ValidatableResponse response = given().headers(Global.HEADERS).queryParams(params).post(url).then();
+        ValidatableResponse response = given().headers(GlobalVal.HEADERS).queryParams(params).post(url).then();
+
         System.out.println(response.extract().body().asString());
     }
     //    测试

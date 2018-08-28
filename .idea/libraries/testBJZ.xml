@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="testBJZ">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/testBJZ_jar/testBJZ.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

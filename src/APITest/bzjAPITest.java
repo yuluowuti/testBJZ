@@ -1,7 +1,7 @@
 package APITest;
 
-import common.AddSign;
-import common.Global;
+import common.AddSignT;
+import common.GlobalVal;
 import io.restassured.response.ValidatableResponse;
 import org.testng.annotations.Test;
 import java.io.IOException;
@@ -11,13 +11,13 @@ import static io.restassured.RestAssured.given;
 public class bzjAPITest {
     @Test
     public void test1() throws IOException {
-        String url = Global.HOST + "/v1/init/gui";
+        String url = GlobalVal.HOST + "/v1/init/gui";
         HashMap params =new HashMap();
         params.put("version","v2");
         params.put("module","homepage");
-        AddSign.sign(params);
+        AddSignT.sign(params);
 
-        ValidatableResponse response = given().headers(Global.HEADERS).queryParams(params).and().get(url).then();
+        ValidatableResponse response = given().headers(GlobalVal.HEADERS).queryParams(params).and().get(url).then();
         System.out.println(response.extract().body().asString());
     }
 

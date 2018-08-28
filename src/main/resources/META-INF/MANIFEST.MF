@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Class-Path: libs/groovy-json-2.4.6.jar libs/groovy-xml-2.4.6.jar libs/
+ mongodb-driver-core-3.3.0.jar libs/spring-webmvc-4.2.6.RELEASE.jar li
+ bs/jsr305-3.0.0.jar libs/commons-beanutils-1.8.0.jar libs/aopalliance
+ -1.0.jar libs/freemarker-2.3.23.jar libs/poi-3.16.jar libs/mongodb-dr
+ iver-3.3.0.jar libs/commons-lang-2.5.jar libs/spring-web-4.2.6.RELEAS
+ E.jar libs/msg-simple-1.1.jar libs/maven-project-2.2.1.jar libs/commo
+ ns-lang3-3.4.jar libs/log4j-1.2.17.jar libs/groovy-2.4.6.jar libs/com
+ mons-codec-1.10.jar libs/rhino-1.7R4.jar libs/json-schema-validator-3
+ .0.1.jar libs/maven-plugin-registry-2.2.1.jar libs/gson-2.3.1.jar lib
+ s/jsoup-1.9.2.jar libs/spring-expression-4.2.6.RELEASE.jar libs/testn
+ g-6.14.3.jar libs/mysql-connector-java-6.0.6.jar libs/json-path-3.0.1
+ .jar libs/maven-artifact-2.2.1.jar libs/spring-beans-4.2.6.RELEASE.ja
+ r libs/plexus-interpolation-1.11.jar libs/tagsoup-1.2.1.jar libs/wago
+ n-file-1.0-beta-6.jar libs/maven-model-2.2.1.jar libs/wagon-http-ligh
+ tweight-1.0-beta-6.jar libs/guava-16.0.1.jar libs/maven-repository-me
+ tadata-2.2.1.jar libs/rest-assured-common-3.0.1.jar libs/hamcrest-lib
+ rary-1.3.jar libs/xmlbeans-2.6.0.jar libs/classworlds-1.1-alpha-2.jar
+  libs/wagon-provider-api-1.0-beta-6.jar libs/hamcrest-core-1.3.jar li
+ bs/bson-3.3.0.jar libs/backport-util-concurrent-3.1.jar libs/json-sch
+ ema-core-1.2.5.jar libs/poi-ooxml-3.14.jar libs/json-lib-2.4-jdk15.ja
+ r libs/rest-assured-3.0.1.jar libs/spring-test-4.2.6.RELEASE.jar libs
+ /libphonenumber-6.2.jar libs/httpclient-4.5.2.jar libs/slf4j-api-1.7.
+ 5.jar libs/slf4j-log4j12-1.7.5.jar libs/joda-time-2.3.jar libs/ant-1.
+ 8.0.jar libs/json-schema-validator-2.2.6.jar libs/httpcore-4.4.4.jar 
+ libs/ezmorph-1.0.6.jar libs/ant-launcher-1.8.0.jar libs/commons-loggi
+ ng-1.1.1.jar libs/maven-error-diagnostics-2.2.1.jar libs/spring-conte
+ xt-4.2.6.RELEASE.jar libs/uri-template-0.9.jar libs/nekohtml-1.9.6.2.
+ jar libs/junit-4.12.jar libs/xercesMinimal-1.9.6.2.jar libs/mailapi-1
+ .4.3.jar libs/jackson-annotations-2.2.3.jar libs/activation-1.1.jar l
+ ibs/plexus-container-default-1.0-alpha-9-stable-1.jar libs/httpmime-4
+ .5.1.jar libs/bsh-2.0b6.jar libs/wagon-http-shared-1.0-beta-6.jar lib
+ s/maven-ant-tasks-2.1.3.jar libs/jxl-2.6.10.jar libs/jcommander-1.72.
+ jar libs/jackson-databind-2.2.3.jar libs/commons-collections-3.2.1.ja
+ r libs/jackson-coreutils-1.8.jar libs/plexus-utils-1.5.15.jar libs/sp
+ ring-core-4.2.6.RELEASE.jar libs/btf-1.2.jar libs/curvesapi-1.03.jar 
+ libs/maven-artifact-manager-2.2.1.jar libs/spring-aop-4.2.6.RELEASE.j
+ ar libs/xml-path-3.0.1.jar libs/spring-mock-mvc-3.0.1.jar libs/javaho
+ st-0.3.jar libs/jackson-core-2.2.3.jar libs/okhttp-3.7.0.jar libs/ext
+ entreports-3.0.3.jar libs/poi-ooxml-schemas-3.14.jar libs/stax-api-1.
+ 0.1.jar libs/commons-collections4-4.1.jar libs/maven-profile-2.2.1.ja
+ r libs/maven-settings-2.2.1.jar libs/okio-1.12.0.jar libs/jopt-simple
+ -4.6.jar
+Main-Class: common.AddSignT
+

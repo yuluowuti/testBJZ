@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 import java.util.Arrays;
 
-public class AddSign {
+public class AddSignT {
 //    1: 过滤掉数组里面的空值，并过滤[sign,key,token]键值；
 //    2: 增加timestamp字段（注1）并加入请求参数参与签名；
 //    3: 按字典序排序参数 ksort($params_array) 如：array(bb=>2,cc=>3,aa=>1,’dd’=>,’token’=>’12345678’) ksort得到
@@ -61,6 +61,19 @@ public class AddSign {
         String sign = getMD5Str(new_str).toUpperCase();
         map.put("sign",sign);
         System.out.println(map);
+    }
+
+    public static String getSing(HashMap map){
+        String new_str = "";
+        Object[] key_arr = map.keySet().toArray();
+        Arrays.sort(key_arr);
+        for  (Object key : key_arr) {
+            new_str += key + "=" + map.get(key) + "&";
+        }
+        new_str = new_str + "key=" + APP_KEY;
+        String sign = getMD5Str(new_str).toUpperCase();
+
+        return sign;
     }
 
     public static void main(String []args){
